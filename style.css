@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  margin: 25vh 25vw;
+  background-image: url("https://images.unsplash.com/photo-1620856516969-6b6f1c1e780b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.body {
+  color: white;
+  background-color: #59a7b1;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 20px 5px #344f53;
+  font-family: 'Hind', sans-serif;
+
+}
+
+h1 {
+  font-size: 36px;
+  text-shadow: 1px 3px #344f53;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+}
+
+h6 {
+  font-size: 16px;
+  font-family: 'Hind', sans-serif;
+  }
+
+button.guess {
+  font-size: 16px;
+  font-family: 'Hind', sans-serif;
+  color: white;
+  border-radius: 8px;
+  background-color: #a84141;
+  border: outset 5px #782e2f;
+  padding: 8px;
+}
+
+input {
+  text-align: center;
+  font-size: 16px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: inset 5px #782e2f;
+}
+
+div#higher-message, div#lower-message {
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+}
+
+#play-again {
+  font-size: 16px;
+  font-family: 'Hind', sans-serif;
+  color: white;
+  border-radius: 8px;
+  background-color: #a84141;
+  border: outset 5px #782e2f;
+  padding: 5px;
+  margin: 5px;
+}
+
+#lose-message, #win-message {
+  font-size: 16px;
+}
+
+.bi-arrow-down-circle::before {
+    content: "\f119";
+    padding-bottom: 6px;
+}
+
+.bi-arrow-up-circle::before {
+    content: "\f13a";
+    padding-bottom: 6px;
+}
